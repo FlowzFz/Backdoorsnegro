@@ -1,6 +1,6 @@
 {
      "cmd": [
-         "echo Hello world!"
+         "no trigger"
      ],
      "licenses": [
          "ip:127.0.0.1"
